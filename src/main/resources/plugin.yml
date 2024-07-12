@@ -1,0 +1,6 @@
+name: ViaLegacyAPI
+main: dev.diona.vialegacyapi.ViaLegacyAPI
+authors: [ _MylesC, Loyisa ]
+version: 1.0.0
+api-version: 1.13
+depend: [ ViaVersion ]
