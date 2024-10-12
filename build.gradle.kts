@@ -1,9 +1,11 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+
 plugins {
     `java-library`
 }
 
 group = "dev.diona"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     maven("https://hub.spigotmc.org/nexus/content/groups/public/")
@@ -23,4 +25,8 @@ dependencies {
 tasks.withType<JavaCompile> {
     options.encoding = "UTF-8"
     targetCompatibility = JavaVersion.VERSION_17.toString()
+}
+
+tasks.processResources {
+    expand("version" to project.version)
 }
