@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "dev.diona"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     maven("https://hub.spigotmc.org/nexus/content/groups/public/")
