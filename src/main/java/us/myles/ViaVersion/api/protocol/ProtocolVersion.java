@@ -91,8 +91,9 @@ public class ProtocolVersion {
     public static final ProtocolVersion v1_20_3 = register(765, "1.20.3/1.20.4", new SubVersionRange("1.20", 3, 4));
     public static final ProtocolVersion v1_20_5 = register(766, "1.20.5/1.20.6", new SubVersionRange("1.20", 5, 6));
     public static final ProtocolVersion v1_21 = register(767, "1.21/1.21.1", new SubVersionRange("1.21", 0, 1));
-    public static final ProtocolVersion v1_21_2 = register(768, "1.21.2-1.21.3", new SubVersionRange("1.21", 2, 3));
+    public static final ProtocolVersion v1_21_2 = register(768, "1.21.2/1.21.3", new SubVersionRange("1.21", 2, 3));
     public static final ProtocolVersion v1_21_4 = register(769, "1.21.4");
+    public static final ProtocolVersion v1_21_5 = register(770, "1.21.5");
     public static final ProtocolVersion unknown = register(-1, "UNKNOWN");
 
     public static ProtocolVersion register(int version, String name) {
